@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="intepaturi.css">
+  </head>
+
+
+<header>
+        <div class="main">
+            <ul>
+                <li><a href="index.html">Acasa</a></li>
+                <li><a href="categori.html">Categorii</a></li>
+                <li><a href="#">Lectii de prim ajutor</a></li>
+                <li><a href="pentruviitor.html">Pentru viitor</a><li>
+            </ul>
+        </div>
+</header>
+
+<head class="read-more">
+    <title>ROA</title>
+</head>
+
+<body>
+<div class="box">
+    <img src="albina.jpg" alt="">
+    <h4> Înțepături </h4>
+    <p> Albine si viespi:
+        <br>
+     Înțepătura de albina sau viespe este însoțită de umflarea zonei și durere locală, iar în cazul persoanelor sensibile poate produce manifestări alergice severe, inclusiv șoc anafilactic.
+     <br>Cum se tratează o înțepătura de insectă?
+     <br>
+    Cele mai multe înțepături de insecte sunt inofensive. În cazul înțepăturilor, dacă acul insectei rămâne în piele, este necesară îndepărtarea lui cât mai rapidă pentru a întrerupe eliberarea veninului.Pentru diminuarea mâncărimii se pot folosi medicamente antialergice (disponibile fără prescripție medicală) cu administrare locală (geluri) sau sistemică (tablete) în funcție de severitatea mâncărimilor. Durerea și umflătură pot fi ameliorate prin aplicarea unor comprese reci sau a gheții. Se recomandă evitarea aplicării gheții direct pe piele deoarece poate conduce la degeraturi.
+    <br>Când trebuie să mergi la doctor?
+    <br>Există situații în care înțepăturile de insecte conduc la apariția unor reacții severe care va pot pune în pericol starea de sănătate și pot fi fatale dacă nu sunt tratate la timp.În cazul apariției unor manifestări severe precum umflarea fetei, dificultăți la înghițire sau în respirație, accelerarea ritmului cardiac sau pierderea stării de conștientă este necesară solicitarea asistenței medicale de urgență prin apelarea numărului unic de urgență 112.
+    <br>De asemenea, vizita la medic este necesara in urmatoarele situatii:</p>
+    <ull class="lista">
+        <li>Simptomele nu se ameliorează în câteva zile sau se înrăutățesc;</li>
+        <li>În jurul muscaturii apare o zona roșie, umflată cu dimensiuni mari;</li>
+        <li>Apar semne de infecție locală la nivelul mușcăturii (puroi, înrăutățirea durerii, umflare, înroșire);</li>
+    </ull>
+     <a href="javascript:void();" class="read-more-btn">Citeste mai mult</a>
+</div>
+     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+<script>
+$(".read-more-btn").on('click', function(){
+    $(this).parent().toggleClass("showContent");
+
+    var replaceText = $(this).parent().hasClass("showContent") ? "Citeste mai putin" : "Citeste mai mult";
+    $(this).text(replaceText);
+});
+</script>
+
+</body>
+</html>

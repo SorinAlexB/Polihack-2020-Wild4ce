@@ -1,0 +1,153 @@
+header {
+  height:10vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 30px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.main{
+    max-width: 1500px;
+    width: auto;
+}
+
+body {
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  
+    background: linear-gradient(to right, #556270, #4ECDC4); 
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: :100%;
+    height: 100%;
+
+}
+
+.banner{
+    width:80%;
+    height:70%;
+    top: 25%;
+    left:130px;
+    position: absolute;
+    color: #fff;
+}
+
+.app-text{
+    width: 50%;
+    float:left;
+}
+
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.app-text p{
+    width:650px;
+    font-size: 15px;
+    margin: 30px 0 30px 140px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.app-picture{
+    float: right;
+
+}
+
+.app-picture img{
+    padding-left: 20px;
+    width: 60%;
+    margin-right: -60px;
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  top:-20%;
+}
+
+.page2{
+  text-align: center;
+  width: 70%;
+}
+.page2 h1{
+  margin-bottom:  20px;
+   font-size: 25px;
+}
+
+.banner1{
+    width:80%;
+    height:70%;
+    top: 25%;
+    left:130px;
+    position: absolute;
+    color: #fff;
+}
+
+.app-text1{
+    width: 50%;
+    float:right;
+    margin-top:800px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.app-text1 h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.app-text1 p{
+    width:650px;
+    font-size: 15px;
+    margin: 30px 0 60px 40px;
+    color: #fff;
+}
+
+.app-picture1{
+    float: left;
+    margin-top: -300px;
+    margin-left: -200px;
+}
+
+.app-picture1 img{
+    padding-left: 20px;
+    width: 60%;
+}
